@@ -1,0 +1,83 @@
+main{
+    .right-div{
+        border-radius:20px;
+        border: 1px solid #57627227 ;
+        box-shadow: 0px 8px 3px #57627242 ;
+        width: 50%;
+        // height: 1000px;
+        position: relative;
+
+        form{
+            // padding: 50px 0px 0px 60px;
+            position: absolute;
+            width: 80%;
+            margin-left: 10%;
+            .form-inputs{
+                margin-top: 30px;
+                h1{
+                    font-size:30px;
+                    font-family:museo sans;
+                    color:$black;
+                    margin-bottom: 15px;
+                }
+                .input-type{
+                    border-radius:50px;
+                    border:1px solid #57627227;
+                    height:100px;
+                    width: 100%;
+                    font-size: 25px;
+                    padding: 0px 0px 0px 40px;
+                    outline:none;
+
+                    &:focus{
+                        border: 1px solid #6a72fb;;
+                    }
+                    &:hover{
+                        border: 1px solid #6a72fb;;
+                    }
+                }
+            }
+
+            .text-area{
+                h1{
+                    font-size:30px;
+                    font-family:museo sans;
+                    color:$black;
+                    margin-bottom: 15px; 
+                }
+                textarea{
+                    border-radius:15px;
+                    border:1px solid #57627227;
+                    height:200px;
+                    width: 100%;
+                    font-size: 25px;
+                    padding: 0px 0px 0px 40px;
+                    outline:none;
+
+                    &:focus{
+                        border: 1px solid #6a72fb;;
+                    }
+                }
+            }
+
+            button{
+                border-radius:50px;
+                height:80px;
+                width: 60%;
+                font-size: 25px;
+                text-align: center;
+                color: white;
+                background-color: #576272;
+                font-family: museo sans;
+                border: none;
+                margin-top: 20px;
+                font-weight: bold;
+
+                &:hover{
+                    background-color: #66c1bd;
+                    margin:0px 0px 2px 0px;
+                }
+            }
+        }
+    }
+}

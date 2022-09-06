@@ -1,0 +1,146 @@
+@font-face {
+  font-family: museo sans;
+  src: url(../fonts/museosans_500_macroman/MuseoSans_500-webfont.woff);
+}
+@font-face {
+  font-family: museo slab;
+  src: url(../fonts/museoslab_500_macroman/Museo_Slab_500_2-webfont.woff);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  width: 90%;
+  margin-left: 5%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+main .left-div .img-1 {
+  width: 300px;
+  height: 400px;
+}
+main .left-div .img-1 img {
+  width: 100%;
+}
+main .left-div .contact-us {
+  color: #576272;
+  font-size: 65px;
+  font-family: museo sans;
+  font-weight: bold;
+}
+main .left-div .heading-description {
+  font-size: 25px;
+  margin: 30px 0px 70px 0px;
+  line-height: 50px;
+  font-family: museo sans;
+  color: #576272;
+}
+main .left-div .support-inquiries-img {
+  background-color: rgba(102, 193, 189, 0.11);
+  border-radius: 18px;
+  margin: 20px 0px 40px 0px;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  padding: 30px;
+}
+main .left-div .support-inquiries-img .img-2 {
+  width: 130px;
+  height: 130px;
+  padding: 15px 0px 0px 0px;
+}
+main .left-div .support-inquiries-img .img-2 img {
+  width: 100%;
+}
+main .left-div .support-inquiries-img .support-inquiries {
+  font-family: museo sans;
+  margin: 20px 20px 0px 0px;
+  width: 60%;
+}
+main .left-div .support-inquiries-img .support-inquiries h1 {
+  font: size 20px;
+  color: #19163a;
+  margin-bottom: 30px;
+}
+main .left-div .support-inquiries-img .support-inquiries a {
+  color: #576272;
+  font-size: 23px;
+  text-decoration: none;
+}
+
+main .right-div {
+  border-radius: 20px;
+  border: 1px solid rgba(87, 98, 114, 0.1529411765);
+  box-shadow: 0px 8px 3px rgba(87, 98, 114, 0.2588235294);
+  width: 50%;
+  position: relative;
+}
+main .right-div form {
+  position: absolute;
+  width: 80%;
+  margin-left: 10%;
+}
+main .right-div form .form-inputs {
+  margin-top: 30px;
+}
+main .right-div form .form-inputs h1 {
+  font-size: 30px;
+  font-family: museo sans;
+  color: #19163a;
+  margin-bottom: 15px;
+}
+main .right-div form .form-inputs .input-type {
+  border-radius: 50px;
+  border: 1px solid rgba(87, 98, 114, 0.1529411765);
+  height: 100px;
+  width: 100%;
+  font-size: 25px;
+  padding: 0px 0px 0px 40px;
+  outline: none;
+}
+main .right-div form .form-inputs .input-type:focus {
+  border: 1px solid #6a72fb;
+}
+main .right-div form .form-inputs .input-type:hover {
+  border: 1px solid #6a72fb;
+}
+main .right-div form .text-area h1 {
+  font-size: 30px;
+  font-family: museo sans;
+  color: #19163a;
+  margin-bottom: 15px;
+}
+main .right-div form .text-area textarea {
+  border-radius: 15px;
+  border: 1px solid rgba(87, 98, 114, 0.1529411765);
+  height: 200px;
+  width: 100%;
+  font-size: 25px;
+  padding: 0px 0px 0px 40px;
+  outline: none;
+}
+main .right-div form .text-area textarea:focus {
+  border: 1px solid #6a72fb;
+}
+main .right-div form button {
+  border-radius: 50px;
+  height: 80px;
+  width: 60%;
+  font-size: 25px;
+  text-align: center;
+  color: white;
+  background-color: #576272;
+  font-family: museo sans;
+  border: none;
+  margin-top: 20px;
+  font-weight: bold;
+}
+main .right-div form button:hover {
+  background-color: #66c1bd;
+  margin: 0px 0px 2px 0px;
+}/*# sourceMappingURL=style.css.map */
